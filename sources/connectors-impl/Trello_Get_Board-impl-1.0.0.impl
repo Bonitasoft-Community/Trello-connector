@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>Trello_Get_Board-impl</implementationId>
+  <implementationVersion>1.0.0</implementationVersion>
+  <definitionId>Trello_Get_Board</definitionId>
+  <definitionVersion>1.0.0</definitionVersion>
+  <implementationClassname>com.bonitasoft.connector.Trello_Get_BoardImpl</implementationClassname>
+  <jarDependencies>
+    <jarDependency>commons-httpclient-3.1.jar</jarDependency>
+    <jarDependency>commons-io-2.0.jar</jarDependency>
+    <jarDependency>json-simple-1.1.1.jar</jarDependency>
+    <jarDependency>json_org.jar</jarDependency>
+    <jarDependency>commons-logging-1.1.1.jar</jarDependency>
+  </jarDependencies>
+</implementation:connectorImplementation>
