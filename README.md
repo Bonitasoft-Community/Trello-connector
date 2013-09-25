@@ -1,11 +1,7 @@
 Trello-connector
 ================
-
 All resources about the Community contributed Trello connector
 
-You need the following libs
-commons-httpclient-3.1.jar
-commons-io-2.0.jar
-commons-logging-1.1.1.jar
-json_org.jar
-json-simple-1.1.1.jar
+To install into studio download /Trello_Get_Board-impl-1.0.0 foder, zip it and import into studio from menu Development -> Connectors -> Import Conector
+
+Note: You will find dependencies inside the folder /Trello_Get_Board-impl-1.0.0/classpath
