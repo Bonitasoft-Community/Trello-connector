@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.0">
+  <id>Trello_Get_Board</id>
+  <version>1.0.0</version>
+  <icon>Trello.png</icon>
+  <category icon="Trello.png" id="Trello"/>
+  <input mandatory="true" name="board" type="java.lang.String"/>
+  <input mandatory="true" name="token" type="java.lang.String"/>
+  <input defaultValue="" mandatory="true" name="apiKey" type="java.lang.String"/>
+  <output name="trelloList" type="java.util.List"/>
+  <output name="bonitaList" type="java.util.List"/>
+  <output name="bonitaColumn" type="java.util.List"/>
+  <output name="stringCSV" type="java.lang.String"/>
+  <page id="setuptrellodata">
+    <widget xsi:type="definition:Text" id="board" inputName="board"/>
+    <widget xsi:type="definition:Text" id="token" inputName="token"/>
+    <widget xsi:type="definition:Text" id="apikey" inputName="apiKey"/>
+  </page>
+</definition:ConnectorDefinition>
